@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    background:rgba(160, 18, 129, 0.753);
+    color: rgba(214, 227, 243, 0.466);
+    font-size: 30px;
+    float: right;
+}
+.Caja{
+    position:static;
+    top: 100px;
+    bottom: 0px;
+    right: 0px;
+    left: 300px;
+}

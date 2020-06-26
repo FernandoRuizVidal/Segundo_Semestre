@@ -1,0 +1,94 @@
+<html>
+	<head>
+        <title>Menu-02</title>
+        <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+		<style type="text/css">
+			* {
+				margin:0px;
+				padding:0px;
+            }
+            body{
+                background: silver;
+            }
+            h1{
+                background: cyan;
+                color: rgba(126, 11, 126, 0.726);
+                text-align: center;
+            }			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			ul, ol {
+				list-style:none;
+			}
+			.nav > li {
+				float:left;
+			}
+			.nav li a {
+				background-color:rgb(149, 8, 8);
+				color:rgb(15, 154, 189);
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			.nav li a:hover {
+				background-color:#0ae73a;
+			}
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			.nav li:hover > ul {
+				display:block;
+			}
+			.nav li ul li {
+				position:relative;
+			}
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+		</style>
+	</head>
+	<body>
+        <h1>Menu Desplegable HTML/CSS</h1>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Servicios</a>
+					<ul>
+						<li><a href="">Agua</a></li>
+						<li><a href="">Electricidad</a></li>
+						<li><a href="">Inmuebles</a></li>
+						<li><a href="">Viveres</a>
+							<ul>
+								<li><a href="">Comida</a></li>
+								<li><a href="">Frutas</a></li>
+								<li><a href="">Verduras</a></li>
+								<li><a href="">Bebidas</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Contacto</a>
+					<ul>
+						<li><a href="">Facebook</a></li>
+						<li><a href="">Twiter</a></li>
+						<li><a href="">Instragram</a></li>
+						<li><a href="">WhatsApp</a></li>
+					</ul>
+				</li>
+				<li><a href="">Acerca De</a></li>
+			</ul>
+        </div>
+        <br>
+        <br>
+        <footer>
+            <cite class="AUTOR">Fernando Ruiz Vidal - Sanada_Yukimura.2020</cite>
+            <hr> 
+        </footer>
+	</body>
+</html>

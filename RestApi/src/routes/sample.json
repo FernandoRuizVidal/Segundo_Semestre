@@ -1,0 +1,18 @@
+[
+    {
+        "id":"1",
+        "title":"Kobayashi",
+        "company":"kadokawa",
+        "year":"2016",
+        "temporadas":"1",
+        "capitulos":"14"
+    },
+    {
+        "id":"2",
+        "title":"Date A Live",
+        "company":"kadokawa",
+        "year":"2011",
+        "temporadas":"3",
+        "capitulos":"12"
+    }
+]

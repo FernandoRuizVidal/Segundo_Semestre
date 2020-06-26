@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>Atributos D.O.M. HTML/CSS</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background: #dddddd;
+            display: inline-block;
+            margin-right: 10px;
+            border: 1px solid #AAAAAA;
+        }
+        .azul {
+            background: #0074D9;
+            border: 1px solid #000;
+        }
+        .rojo {
+            background: #FF4136;
+            border: 1px solid #000;
+        }
+        .verde{
+            background: #00ff22;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <section id="Contenedor">
+        <a target="_blank" href="https://mega.nz/file/6khFFZjA#MUNJj39Fnh-eID76AOIDNoq4BqH7ARDavxrTW7xEEZU" id="Enlace">Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna</a>
+        <div class=""></div>
+        <div class=""></div>
+    </section>
+    <script>
+        var Elemento = document.createElement("div");
+        var Padre = document.getElementById("Contenedor");
+        var Referencia = document.getElementsByTagName("div")[0];
+        Elemento.setAttribute("class", "azul");
+        Padre.insertBefore(Elemento, Referencia)
+
+        /* document.body.appendChild(Elemento); */
+    </script>
+</body>
+</html>

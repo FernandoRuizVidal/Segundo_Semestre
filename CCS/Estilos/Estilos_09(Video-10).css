@@ -1,0 +1,12 @@
+div{
+    width: 100%;
+}
+img{
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    /*box-shadow: 5px 5px 0px rgba(180, 0, 0, 0.863);*/
+    padding: 10px;
+    border: 1px solid #000;
+}

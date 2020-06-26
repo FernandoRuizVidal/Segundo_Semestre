@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Condicionales HTML/JavaSript</title>
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <script>
+        var nombre = "Fernando", 
+        edad = 18;
+        /*         if (nombre == "Fernando" ) {
+            -INSTRUCCIONES-
+        document.write("Bievenido " + nombre);
+        } else {
+            -INSTRUCCIONES-
+        document.write("Bievenido Anonimo");
+        } */
+
+        /*         if (nombre == "Black") {
+            
+        } else if (nombre == "Fernando") {
+            
+        } else {
+            
+        } {
+            
+        } */
+        /* if (edad == 1) {
+            document.write("Bienvenido Legal ");
+        } else if (nombre == "Fernando") {
+            document.write("Bienvenido " + nombre);               
+        } else {
+            document.write("Fuera Ilegal ");            
+        } {
+
+        } */
+
+        /* > MENOR QUE:
+           > MAYOR QUE:
+          >= MAYOR O IGUAL:
+          <= MENOR O IGUAL:
+          == IGUAL QUE:
+          != DISTINTO DE:
+            */
+        /*  Pide Que Se Cumplan Ambas Condiciones
+        if (edad >= 18  && nombre == "Fernando") {
+            document.write("Bienvenido Jefe");
+        } else {
+            document.write("Acesso Denegado");
+        } */
+        /* Pide Que Por Lo Menos Una Condicion Se Cumpla Para Hacer Que Se Ejecute
+            if (edad >= 18 || nombre == "Fernando") {
+            document.write("Acesso Permitido - Bienvenido Jefe");
+        } else {
+            document.write("Acesso Denegado - Intruso Detectado");
+        } */
+        if ( edad === "18") {
+            document.write("Acesso Permitido - Bienvenido Jefe");    
+        } else {
+            document.write("Acesso Denegado - Intruso Detectado");            
+        }
+    </script>
+</body>
+</html>

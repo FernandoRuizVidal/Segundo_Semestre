@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>EVENTOS HTML/JavaScript</title>
+</head>
+<body>
+     <!-- <button id="Boton">Boton</button> -->
+     <a id="Boton" href="https://www.animefenix.com/kyoukai-no-kanata">kyoukai_No_Kanata</a>
+    <input type="text" id="input">
+    <script>
+    (function () {
+
+        var Saludo = function (e) {
+        console.log('OH YEAH!!');
+        e.preventDefault();
+        };
+        
+        var Boton = document.getElementById('Boton');
+        Boton.addEventListener("click", Saludo);
+
+        /* 
+        var Saludo = function (e) {
+        console.log('Este Evento Es De Tipo: ' + e.target);
+        };
+        
+        var Boton = document.getElementById('Boton');
+        Boton.addEventListener("click", Saludo); */
+
+
+        /* 
+        var Saludo = function () {
+        console.log('Saludo!');
+        };
+
+        var Saludo_02 = function () {
+        console.log('Saludo_02!');
+        };        
+        var Boton = document.getElementById('Boton');
+        Boton.addEventListener("click", Saludo);
+        Boton.addEventListener("click", Saludo_02);
+        Boton.removeEventListener("click", Saludo); */
+
+
+        /* 
+        var Saludo = function () {
+        console.log('focus!');
+        };
+        var input = document.getElementById('input');
+        input.addEventListener("change", Saludo); */
+
+                
+        /* 
+        var Saludo = function () {
+        console.log('focus!');
+        };
+        var input = document.getElementById('input');
+        input.addEventListener("blur", Saludo); */
+
+
+        /* 
+        var Saludo = function () {
+        console.log('focus!');
+        };
+        var input = document.getElementById('input');
+        input.addEventListener("focus", Saludo); */
+
+
+        /* 
+        var Saludo = function () {
+        alert('SALUDOS');
+        };
+        var Boton = document.getElementById('Boton');
+        Boton.addEventListener("click", Saludo) */
+
+
+        /* 
+        var Boton = document.getElementById('Boton');
+        Boton.addEventListener("click", function(){
+        console.log('Funciono! :D');               
+        }); */
+
+
+        }())
+    </script>
+</body>
+</html>

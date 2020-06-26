@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: o;
+}
+body{
+    background: black;
+}
+* p{
+    background: red;
+    color: black;
+}

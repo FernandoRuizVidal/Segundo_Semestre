@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>Funciones-01 HTML/JavaScript</title>
+</head>
+<body>
+    <script>
+
+        /* 
+        function Saludo() {
+            document.write("Buenos Dias");
+        }
+        Saludo();
+         */
+        
+        /*  
+        function Saludo(Nombre) {
+             document.write("Hola " + Nombre);
+         }
+         Saludo("Max");
+          */
+
+          /* 
+          function Suma(Numero_01, Numero_02) {
+              var Numero_01 = Numero_01;
+              var Numero_02 = Numero_02;
+              document.write(Numero_01 + Numero_02);
+          }
+          Suma(10, 20);
+           */
+
+         /* 
+           var Suma = function Suma(Numero_01, Numero_02) {
+              var Numero_01 = Numero_01;
+              var Numero_02 = Numero_02;
+              return Numero_01 + Numero_02;
+          }
+         document.write( Suma(90, 20) );
+         document.write("<br>");
+         document.write( Suma(90, 60) );
+          */
+        var Numero_Maximo = function Numero_Maximo(Valor_01, Valor_02) {
+            if (Valor_01 > Valor_02) {
+                return Valor_01;               
+            }
+            return Valor_02;
+        }
+        document.write("El Numero Mayor Es: " + Numero_Maximo (5, 6) );
+        /* Numero_Maximo(5, 9); */         
+    </script>
+</body>
+</html>

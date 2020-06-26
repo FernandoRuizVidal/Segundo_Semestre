@@ -1,0 +1,4 @@
+[0528/144725.004:ERROR:process_info.cc(359)] UncheckedAllocate
+[0528/144725.169:ERROR:file_io.cc(134)] WriteFile: Recursos insuficientes en el sistema para completar el servicio solicitado. (0x5AA)
+[0528/144725.171:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0528/144725.175:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Ferna\AppData\Local\Google\Chrome\User Data\Crashpad\reports\5ce26052-6af6-4f9a-8e58-d4566021be5c.dmp: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (0x20)

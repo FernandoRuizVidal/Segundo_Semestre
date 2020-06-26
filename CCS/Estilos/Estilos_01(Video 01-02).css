@@ -1,0 +1,31 @@
+/* VIDEO-02 */
+body{
+    background:aquamarine;
+    font-size: 20px;
+}
+* {
+    margin:0;
+    padding: 0px;
+    color: darkred;
+}
+h1, h3, h5{
+    color:white;
+}
+h2, h4, h6{
+    color: magenta;
+}
+p a{
+    color:blue;
+    font-size: 20px;
+}
+cite{
+    color: yellow;
+}
+.green{
+    color:blueviolet;
+}
+a[href="https://www.animefenix.com/fate-grand-order-zettai-majuu-sensen-babylonia"]{
+    color: red;
+    font-size:30px;
+}
+/* VIDEO-02 */

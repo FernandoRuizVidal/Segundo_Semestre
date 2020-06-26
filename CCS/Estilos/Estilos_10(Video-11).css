@@ -1,0 +1,30 @@
+h1{
+    color: goldenrod;
+}
+body{
+    background: rgba(90, 14, 145, 0.774);
+}
+.MENU{
+    width: 100%;
+    background: rgb(7, 7, 7);
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+}
+.MENU li{
+    display: inline-block;
+}
+.MENU li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+.MENU li a:hover{
+    background: #ccc;
+    color: #000;
+}
+/*  ol{
+    list-style-type: lower-latin;
+
+    color: white;
+} */

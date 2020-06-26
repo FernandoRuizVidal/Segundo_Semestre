@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>Timers (TimeOut E Interval) HTML/JavaScript</title>
+</head>
+<body>
+    
+</body>
+<script>
+    (function () {
+        var contador = 0;
+
+        var saludo = function () {
+            contador++;
+            console.log(contador);
+
+            setTimeout(saludo, 1000)
+            /* 
+            if (contador === 5) {
+            clearInterval(intervalo);
+            } */
+        };
+        saludo();
+
+        /* TimeOut         
+        setTimeout( saludo, 3000);*/
+
+        /* Interval
+        var intervalo = setInterval(saludo, 1000); */
+
+    }())
+</script>
+</html>

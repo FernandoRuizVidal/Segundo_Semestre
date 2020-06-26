@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>Validacion De Formularios - 02 HTML/JavaScript</title>
+</head>
+<body>
+    <form action="" name="Formulario" method="get" >
+    <br>
+    <input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre:" >
+    <br>
+    <input type="radio" name="Sexo" id="Hombre" value="Hombre" >Hombre.
+    <input type="radio" name="Sexo" id="Mujer"  value="Mujer"  >Mujer.
+    <br>
+    <input type="checkbox" name="Terminos" id="Terminos" >Terminos Y Condiciones.
+    <br>
+    <input type="submit" name="btn" id="btn" value="Enviar" >
+    </form>
+    <script>
+        (function () {
+            var Formulario = document.getElementsByName('Formulario')[0],
+                Elementos = Formulario.elements,
+                Boton = document.getElementById('btn');
+
+                var ValidarNombre = function (e){
+                  if (Formulario.Nombre.value  == 0) {
+                      alert("INGRESA TU NOMBRE - ES OBLIGATORIO");
+                      e.preventDefault();
+                  }  
+                };
+
+                var ValidarRadio = function (e) {
+                    if (Formulario.Sexo[0].checked == true || Formulario.Sexo[1].checked == true) {
+                    } else{
+                        alert("Completa La Definicion De Tu Genero");
+                        e.preventDefault();
+                    }
+                };
+
+
+                var ValidarCheckbox = function (e) {
+                    if (Formulario.Terminos.checked == false) {
+                        alert("Acepta Las Condiciones Y Terminos");
+                        e.preventDefault();
+                    }
+                };
+
+
+                var validar = function(e){
+                ValidarNombre(e);
+                ValidarRadio(e);
+                ValidarCheckbox(e);
+                };
+                Formulario.addEventListener("submit", validar);
+        }())
+    </script>
+</body>
+</html>

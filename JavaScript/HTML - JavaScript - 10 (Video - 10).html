@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>Funciones-02 HTML/JavaScript</title>
+</head>
+<body>
+    <form action="">
+    <input type="text" id="Numero_01">
+    <input type="text" id="Numero_02">
+    <input type="button" value="Sumar" onclick= "alert( Suma(10,50) );" >
+    </form>
+    <script>
+        var Suma = function(Numero_01, Numero_02){
+            var Numero_01 = parseFloat(document.getElementById("Numero_01").value);
+            var Numero_02 = parseFloat(document.getElementById("Numero_02").value);
+            var Resultado = Numero_01 + Numero_02;
+            return Resultado;
+        }
+    </script>
+</body>
+</html>

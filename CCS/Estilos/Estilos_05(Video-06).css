@@ -1,0 +1,13 @@
+body{
+    background: url(../Imagenes/Fondo_01.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    color: white;
+    background-position: 70% 35%;
+}
+div{
+    background: url(../Imagenes/Logo.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    color: yellow;
+}

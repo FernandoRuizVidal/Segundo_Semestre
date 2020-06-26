@@ -1,0 +1,9 @@
+[0606/113601.947:ERROR:process_info.cc(359)] UncheckedAllocate
+[0606/122313.554:ERROR:process_info.cc(359)] UncheckedAllocate
+[0606/123243.703:ERROR:process_info.cc(359)] UncheckedAllocate
+[0606/143851.783:ERROR:process_info.cc(359)] UncheckedAllocate
+[0606/143927.106:ERROR:process_info.cc(359)] UncheckedAllocate
+[0606/144041.150:ERROR:process_info.cc(359)] UncheckedAllocate
+[0606/144910.720:ERROR:process_info.cc(359)] UncheckedAllocate
+[0606/144910.931:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Ferna\AppData\Local\Google\Chrome\User Data\Crashpad\reports\57c5e9bb-8e30-418e-9390-355c12a13f80.dmp: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (0x20)
+[0606/144911.099:ERROR:process_info.cc(359)] UncheckedAllocate

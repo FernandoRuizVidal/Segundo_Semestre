@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>Document_Object_Model-04 HTML/JavaScript</title>
+</head>
+<body>
+    <ol id="Lista">
+        <li id="Primero"><b>Sonny John Moore</b>,​ más conocido por su nombre artístico Skrillex.</li>
+        <li><b>Martijn Gerard Garritsen<b>, mejor conocido como Martin Garrix.</li>
+    </ol>
+    <script>
+        
+        /* var PrimerElemnto = document.getElementById("Primero");
+        PrimerElemnto.innerHTML = "New Text <i class =\"foo\"> SANADA YUKIMURA </i> "; */
+
+
+        /*PrimerElemnto.textContent = "New Text";*/
+        /*PrimerElemnto.innerHTML = "New Text";*/
+
+        /* Remplazar texto
+        var Elemento = document.createElement("li"),
+            Contenido = document.createTextNode("Nuevo Texto");
+
+            Elemento.appendChild(Contenido);
+
+            var Padre = document.getElementsByTagName("li")[0].parentNode,
+            Referencia = document.getElementsByTagName("li")[0];
+            Padre.replaceChild(Elemento, Referencia);         */
+
+
+        var Elemento = document.createElement("li"),
+            Contenido = document.createTextNode("Nuevo Texto");
+
+            Elemento.appendChild(Contenido);
+
+            var Padre = document.getElementsByTagName("li")[0].parentNode,
+            Referencia = document.getElementsByTagName("li")[0];
+            Padre.removeChild(Referencia);
+    </script>
+</body>
+</html>

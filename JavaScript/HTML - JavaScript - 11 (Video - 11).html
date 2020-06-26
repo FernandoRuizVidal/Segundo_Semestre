@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>Scope HTML/JavaScript</title>
+</head>
+<body>
+    <script>
+        /* GLOBAL=podemos acceder a ellas desde cualquier parte del codigo. */
+
+        /* LOCAL=variables creadas dentro de una funcion, solo pueden ser accedidas desde su funcion o una funcion anidada. */
+        (function(){
+            var VariableGlobal = "Variable-Global";
+
+        var MiFuncion = function () {
+        //var VariableLocal = "Variable-Local";
+        alert(VariableLocal);
+
+        var FuncionLocal = function () {
+        var VariableLocal = "Variable-Local, Dentro De Funcion-Local";
+        //alert(VariableLocal);
+        }
+        FuncionLocal();
+        }
+        MiFuncion(); 
+        
+        }())
+        /* 
+                var VariableGlobal = "Variable-Global";
+
+        var MiFuncion = function () {
+        //var VariableLocal = "Variable-Local";
+        alert(VariableLocal);
+
+        var FuncionLocal = function () {
+            var VariableLocal = "Variable-Local, Dentro De Funcion-Local";
+            //alert(VariableLocal);
+        }
+        FuncionLocal();
+        }
+        MiFuncion(); */
+
+        /* ññññ
+        var VariableGlobal = "Variable-Global";
+        var MiFuncion = function () {
+            alert(VariableGlobal);
+            VariableGlobal = "Esta Es Modificada"
+            alert(VariableGlobal);
+        }
+        MiFuncion(); */
+    </script>
+</body>
+</html>

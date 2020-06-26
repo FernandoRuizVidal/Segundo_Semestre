@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>Modificacion De Estilos De Elementos-01 HTML/JavaScript </title>
+    <style>
+        .thumb{
+            width: 200px;
+            transition: 300ms all ease;
+        }
+        .grande{
+            width: 400px;
+        }
+        .titulo{
+            border: 1px solid navy;
+            background: #ccc;
+            padding: 10px;
+        }
+        .tituloGrande{
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="Encabezado" class="tituloGrande titulo">Soy El Titulo \^w^/</h1>
+    <script>
+        var Encabezado = document.getElementById("Encabezado");
+        //Encabezado.className = Encabezado.className.replace("tituloGrande", " ");
+        
+        /* Encabezado.style.background = "navy";
+        Encabezado.style.color = "#fff";
+        Encabezado.style.paddingTop = "20px";
+        Encabezado.style.fontFamily = "20px"; */
+    </script>
+</body>
+</html>

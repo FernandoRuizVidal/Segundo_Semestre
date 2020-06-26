@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGEN/favicon.ico" type="image/x-icon">
+    <title>Document_Object_Model-03 HTML/JavaScript</title>
+</head>
+<body>
+    <ol id="Lista">
+        <li><b>Sonny John Moore</b>,​ más conocido por su nombre artístico Skrillex.</li>
+        <li><b>Martijn Gerard Garritsen<b>, mejor conocido como Martin Garrix.</li>
+    </ol>
+    <script>
+        var Elemento = document.createElement("li"),
+            Contenido = document.createTextNode("Nuevo Texto");
+            Elemento.appendChild(Contenido);
+            /* document.body.appendChild(Elemento);  */
+            var Padre = document.getElementsByTagName("li")[0].parentNode,
+            /* var Padre = document.getElementById("Lista"); */                       
+            /* Padre.appendChild(Elemento); = AL FINAL DEL DOCUMENTO */
+                PrimerElemento = document.getElementsByTagName("li")[1];
+            Padre.insertBefore(Elemento, PrimerElemento);
+    </script>
+</body>
+</html>
